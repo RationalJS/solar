@@ -1,0 +1,24 @@
+{
+  "name": "solar",
+  "version": "0.1.0",
+  "description": "A modern & minimal server framework for TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/rationaljs/solar",
+  "author": "Gilbert",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "ospec tests/*-test.ts --require ts-node/register"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "ospec": "^3.0.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/supertest": "^2.0.6",
+    "path-to-regexp": "^2.4.0",
+    "supertest": "^3.3.0"
+  }
+}
